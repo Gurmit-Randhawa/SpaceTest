@@ -11,6 +11,9 @@ const Navbar = () => {
           <Logo/>
         </div>
         <div className="sections" id="section2">
+        <div className="navbarMenus" id="navbarMenu2">
+            
+          </div>
           <div className="navbarMenus" id="navbarMenu2">
             S
           </div>
@@ -31,6 +34,9 @@ const Navbar = () => {
           </div>
           <div className="navbarMenus" id="navbarMenu8">
             1
+          </div>
+          <div className="navbarMenus" id="navbarMenu2">
+            
           </div>
           
         </div>
