@@ -40,7 +40,6 @@ const Navbar = () => {
           </div>
           
         </div>
-        <div className="sections" id="section3"></div> 
         <div className="sections" id="section4">
           <input type="search" name="" id="" placeholder="Search.." />
           {search}

@@ -3,6 +3,7 @@ import "./App.css";
 import "./index.css";
 import { Itemboxes } from "./Component/Items/Itemboxes.js";
 import { Navbar } from "./Component/Navbar/Navbar";
+import {Joke} from "./Component/Jokes/Joke.js";
 
 const data = [
   { name: "Item A", price: 125 },
@@ -36,7 +37,7 @@ const Test = () => {
   return (
     <>
         <Navbar/>
-
+        <Joke/>
       <div className="gallery">
         <button className="toggle" onClick={toggle}>
           {text}

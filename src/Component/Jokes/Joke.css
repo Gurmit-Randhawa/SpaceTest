@@ -1,0 +1,26 @@
+.jokeContainer{
+    width:70vw;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin:auto;
+    grid-gap: 6px;
+    border:gray solid 2px;
+    margin-top: 10px;
+
+}
+.jokeBtn{
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+}
+.jokeBtn:hover{
+    color:white;
+}
+.showBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:lightgray;
+}
