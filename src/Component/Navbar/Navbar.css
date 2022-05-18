@@ -1,0 +1,47 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vw;
+    background-color: rgb(173, 172, 172);
+}
+
+#section2{
+    display:flex;
+    width: 60vw;
+    justify-content: space-around;
+    font-size: .95vw;
+    font-weight: 500;
+    color:rgba(128, 128, 128, 0.884);
+
+}
+#section1{
+    width: 12vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#section4 input{
+    outline: none;
+    border: none;
+    border-bottom: rgba(128, 128, 128, 0.397) 1px solid;
+    width: 12vw;
+    height: 2.5vw;
+    margin: 0 3px;
+    font-size: 1vw;
+    font-weight: 100;
+    padding:5px;
+    margin-right: 3px;
+}
+.navbarMenus{
+    color: black;
+    font-size: 20PX;
+
+}
+#section4{
+    width:80px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}

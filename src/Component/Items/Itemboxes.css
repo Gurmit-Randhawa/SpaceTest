@@ -1,0 +1,30 @@
+.itemcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 51%;
+    height: 100px;
+    transition: 1s all;
+    margin:4px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+
+
+    }
+  .itemcard:hover{
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+      transform: translateY(-4px);
+  }
+  .itemcard img {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 4px;
+  }
+  .itemcard span {
+    color: orangered;
+    font-weight: 900;
+  }
+  .itemcard p {
+    margin: -6px 0;
+  }
