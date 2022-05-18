@@ -9,9 +9,12 @@
     margin:4px;
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
-
-
-    }
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
   .itemcard:hover{
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
       transform: translateY(-4px);
