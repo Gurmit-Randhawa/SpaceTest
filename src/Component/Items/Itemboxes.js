@@ -1,13 +1,19 @@
 import "./Itemboxes.css";
 
+const img = "https://source.unsplash.com/random"
 
-const Itemboxes = ({name,price,image1}) => {
+
+
+
+const Itemboxes = ({name,price}) => {
   return (
     <>
         <div className="itemcard">
-          <img src={image1} alt="" />
+          <img src={img} alt="" />
+          <div className="infoBox">
           <p>{name}</p>
           <span>{price}</span>
+          </div>
         </div>
     </>
   );
