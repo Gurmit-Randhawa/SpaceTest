@@ -11,7 +11,6 @@ const Navbar = () => {
           <Logo/>
         </div>
         <div className="sections" id="section2">
-          <div className="navbarMenus" id="navbarMenu1"></div>
           <div className="navbarMenus" id="navbarMenu2">
             S
           </div>
@@ -19,7 +18,7 @@ const Navbar = () => {
             P
           </div>
           <div className="navbarMenus" id="navbarMenu4">
-            E
+            A
           </div>
           <div className="navbarMenus" id="navbarMenu5">
             C
@@ -33,11 +32,9 @@ const Navbar = () => {
           <div className="navbarMenus" id="navbarMenu8">
             1
           </div>
-          <div className="navbarMenus" id="navbarMenu9">
-            
-          </div>
+          
         </div>
-        <div className="sections" id="section3"></div>
+        <div className="sections" id="section3"></div> 
         <div className="sections" id="section4">
           <input type="search" name="" id="" placeholder="Search.." />
           {search}

@@ -7,9 +7,12 @@
 }
 
 #section2{
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
     width: 60vw;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin:0 20px;
     font-size: .95vw;
     font-weight: 500;
     color:rgba(128, 128, 128, 0.884);
@@ -41,7 +44,11 @@
 .navbarMenus{
     color: black;
     font-size: 20PX;
-
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
 }
 #section4{
     width:80px;
@@ -49,4 +56,21 @@
     grid-template-columns:1fr 1fr;
     justify-content: center;
     align-items: center;
+}
+.navbarMenus:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transform: scale(1.5);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
